@@ -15,200 +15,256 @@
       integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h"
       crossorigin="anonymous"
     />
-    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC:400,700&amp;subset=chinese-traditional,cyrillic,japanese" rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="shortcut icon" type="image/png" href="./images/favicon.png"/>
     <title>Hello, World!</title>
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <img src="images/avatar.png" alt="avatar" class="container__avatar" />
-        </div>
-        <h1 class="container__title col-sm-12">
+      <!-- Header -->
+      <div class="header">
+          <img src="images/avatar.png" alt="avatar" class="avatar" />
+        <h1 class="header__title">
           Hello World! My name is Katho!
         </h1>
-        <h2 class="container__subtitle col-sm-12">
+        <h2 class="header__subtitle col-s-12">
           I'm a freelancer software developer.
         </h2>
-        <p class="container__paragraph col-sm-12">
+        <p class="header__paragraph col-sm-12">
           An 18 years guy who lives in São Paulo, Brazil.
         </p>
       </div>
-      <div class="row justify-content-around container__social">
-        <div class="container__social-box col-sm-3">
-          <i class="fab fa-twitter container__social-box--icon"></i>
+      <!-- Social Media Section -->
+      <div class="row justify-content-around">
+        <div class="social-media col-s6 col-m-3">
+          <i class="fab fa-twitter social-media__icon"></i>
           <p>
             <a
               href="https://twitter.com/Katho162"
-              class="container__social-box--link"
+              class="social-media__link"
               target="_blank"
               >@Katho162</a
             >
           </p>
         </div>
-        <div class="container__social-box col-sm-3">
-          <i class="fab fa-github container__social-box--icon"></i>
+        <div class="social-media col-s6 col-m-3">
+          <i class="fab fa-github social-media__icon"></i>
           <p>
             <a
               href="https://github.com/Katho162"
-              class="container__social-box--link"
+              class="social-media__link"
               target="_blank"
               >Katho162</a
             >
           </p>
         </div>
-        <div class="container__social-box col-sm-3">
-          <i class="fab fa-google-plus-g container__social-box--icon"></i>
+        <div class="social-media col-s6 col-m-3">
+          <i class="fab fa-google-plus-g social-media__icon"></i>
           <p>
             <a
               href="#"
-              class="container__social-box--link"
+              class="social-media__link"
               target="_blank"
               >katho.contato@gmail.com</a
             >
           </p>
         </div>
-        <div class="container__social-box col-sm-3">
-          <i class="fab fa-linkedin-in container__social-box--icon"></i>
+        <div class="social-media col-s6 col-m-3">
+          <i class="fab fa-linkedin-in social-media__icon"></i>
           <p>
             <a
               href="www.linkedin.com/in/katho162"
-              class="container__social-box--link"
+              class="social-media__link"
               target="_blank"
               >Katho162</a
             >
           </p>
         </div>
       </div>
-      <div class="container__about">
-        <h2 class="container__about--title">About</h2>
-        <p class="container__about--paragraph">
+      <!-- About Section -->
+      <div class="about">
+        <h2 class="about__title">About</h2>
+        <p class="about__paragraph">
           I make software development stuff 'n design sometimes. Look at the
           technologies that i can work with:
         </p>
-        <div class="row container__about--tech-holder justify-content-around">
-            <div class="container__about--tech-holder--technology col-sm-3">
+        <!-- Technology Sub-Section -->
+        <div class="row justify-content-around">
+            <div class="technology-component col-sm-3">
               <img
                 src="./images/react.png"
                 alt="react"
-                class="container__about--tech-holder-technology--icon"
+                class="technology-component__icon"
               />
-              <p class="container__about--tech-holder--technology--name">React</p>
-              <p class="container__about--tech-holder--technology--desc">
+              <p class="technology-component__name">React</p>
+              <p class="technology-component__desc">
                 React is a front-end framework, that simulates the legacy DOM by
                 doing a Virtual one.
               </p>
             </div>
-            <div class="container__about--tech-holder--technology col-sm-3">
+            <div class="technology-component col-sm-3">
               <img
                 src="./images/java.png"
                 alt="java"
-                class="container__about--tech-holder-technology--icon"
+                class="technology-component__icon"
               />
-              <p class="container__about--tech-holder--technology--name">Java</p>
-              <p class="container__about--tech-holder--technology--desc">
+              <p class="technology-component__name">Java</p>
+              <p class="technology-component__desc">
                 Java is classical programming language that simulates a Virtual
                 machine named JVM.
               </p>
             </div>
-            <div class="container__about--tech-holder--technology col-sm-3">
+            <div class="technology-component col-sm-3">
               <img
                 src="./images/elixir.png"
                 alt="elixir"
-                class="container__about--tech-holder-technology--icon"
+                class="technology-component__icon"
               />
-              <p class="container__about--tech-holder--technology--name">
+              <p class="technology-component__name">
                 Elixir
               </p>
-              <p class="container__about--tech-holder--technology--desc">
+              <p class="technology-component__desc">
                 Elixir is a modern and functional programming language, that is
                 high reliable and can built distribuited systems easily.
               </p>
             </div>
-            <div class="container__about--tech-holder--technology col-sm-3">
+            <div class="technology-component col-sm-3">
                 <img
                   src="./images/python.png"
                   alt="python"
-                  class="container__about--tech-holder-technology--icon"
+                  class="technology-component__icon"
                 />
-                <p class="container__about--tech-holder--technology--name">
+                <p class="technology-component__name">
                   Python
                 </p>
-                <p class="container__about--tech-holder--technology--desc">
+                <p class="technology-component__desc">
                   Python is a classical high level programming language, that is very used in IA projects.
                 </p>
             </div>
-            <div class="container__about--tech-holder--technology col-sm-3">
+            <div class="technology-component col-sm-3">
                   <img
                     src="./images/javascript.png"
                     alt="javascript"
-                    class="container__about--tech-holder-technology--icon"
+                    class="technology-component__icon"
                   />
-                  <p class="container__about--tech-holder--technology--name">
+                  <p class="technology-component__name">
                     JavaScript
                   </p>
-                  <p class="container__about--tech-holder--technology--desc">
+                  <p class="technology-component__desc">
                     JavaScript is a multi-tools language that can be run in web-browser and desktops.
                   </p>
             </div>
-            <div class="container__about--tech-holder--technology col-sm-3">
+            <div class="technology-component col-sm-3">
                 <img
                   src="./images/clojure.png"
                   alt="clojure"
-                  class="container__about--tech-holder-technology--icon"
+                  class="technology-component__icon"
                 />
-                <p class="container__about--tech-holder--technology--name">
+                <p class="technology-component__name">
                   Clojure
                 </p>
-                <p class="container__about--tech-holder--technology--desc">
+                <p class="technology-component__desc">
                   Clojure is a modern and functional programming language based on Lisp.
                 </p>
             </div>
-            <div class="container__about--tech-holder--technology col-sm-3">
+            <div class="technology-component col-sm-3">
                 <img
                   src="./images/mysql.png"
                   alt="mysql"
-                  class="container__about--tech-holder-technology--icon"
+                  class="technology-component__icon"
                 />
-                <p class="container__about--tech-holder--technology--name">
+                <p class="technology-component__name">
                   MySQL
                 </p>
-                <p class="container__about--tech-holder--technology--desc">
+                <p class="technology-component__desc">
                   MySQL is a relational database server.
                 </p>
             </div>
-            <div class="container__about--tech-holder--technology col-sm-3">
+            <div class="technology-component col-sm-3">
                 <img
                   src="./images/mongodb.png"
                   alt="mongodb"
-                  class="container__about--tech-holder-technology--icon"
+                  class="technology-component__icon"
                 />
-                <p class="container__about--tech-holder--technology--name">
+                <p class="technology-component__name">
                   MongoDB
                 </p>
-                <p class="container__about--tech-holder--technology--desc">
+                <p class="technology-component__desc">
                   MongoDB is a modern NoSQL database server.
                 </p>
             </div>
-            <div class="container__about--tech-holder--technology col-sm-3">
+            <div class="technology-component col-sm-3">
                 <img
                   src="./images/redis.png"
                   alt="redis"
-                  class="container__about--tech-holder-technology--icon"
+                  class="technology-component__icon"
                 />
-                <p class="container__about--tech-holder--technology--name">
+                <p class="technology-component__name">
                   Redis
                 </p>
-                <p class="container__about--tech-holder--technology--desc">
+                <p class="technology-component__desc">
                   Redis is a modern NoSQL database server focused on cache.
                 </p>
             </div>
           </div>
         </div>
-        <div class="container__footer">
-          <p class="container__footer--msg">
+        <!-- Experiences Section -->
+        <div class="experiences">
+          <h2 class="experiences__title">Experiences</h2>
+          <p class="experiences__paragraph">Actually i'm a polyglot, i can adapt myself to each team or project in these languages:</p>
+          <div class="row justify-content-around">
+              <div class="language-component col-sm-3">
+                <img src="./images/flags/brazil.png" alt="flag" class="language-component__flag">
+                <p class="language-component__name">Portuguese</p>
+                <p class="language-component__desc">Eu posso falar Português fluentemente, pois nasci e vivi na cidade de São Paulo que fica no Brazil!!</p>
+              </div>
+              <div class="language-component col-sm-3">
+                  <img src="./images/flags/us.png" alt="flag" class="language-component__flag">
+                  <p class="language-component__name">English</p>
+                  <p class="language-component__desc">I really enjoy speak English, since it was my first foreign language. and today i speak English every time.</p>
+              </div>
+              <div class="language-component col-sm-3">
+                <img src="./images/flags/germany.png" alt="flag" class="language-component__flag">
+                <p class="language-component__name">German</p>
+                <p class="language-component__desc">Ich bin immer noch ein bisschen schlecht auf Deutsch, aber ich habe gelernt weil ich die deutsche Kultur wirklich mag und eines Tages nach Deutschland zu leben möchte</p>
+              </div>
+              <div class="language-component col-sm-3">
+                <img src="./images/flags/norway.png" alt="flag" class="language-component__flag">
+                <p class="language-component__name">Norwegian</p>
+                <p class="language-component__desc">Jeg lærte norsk fordi jeg likte språket så mye, og Norge synes å være et fantastisk sted! og bjørner er så kult!</p>
+              </div>
+              <div class="language-component col-sm-3">
+                  <img src="./images/flags/china.png" alt="flag" class="language-component__flag--disable">
+                  <p class="language-component__name">Chinese Mandarin</p>
+                  <p class="language-component__desc">我只懂中文的基礎知識，但肯定會是我的下一個語言！ （此消息由自動翻譯生成）</p>
+              </div>
+              <div class="language-component col-sm-3">
+                  <img src="./images/flags/russia.png" alt="flag" class="language-component__flag--disable">
+                  <p class="language-component__name">Russian</p>
+                  <p class="language-component__desc">Я учу русский язык в настоящее время, потому что Россия кажется самым крутым местом в мире! (это сообщение было сгенерировано автоматическим переводчиком)</p>
+              </div>
+              <div class="language-component col-sm-3">
+                    <img src="./images/flags/japan.png" alt="flag" class="language-component__flag--disable">
+                    <p class="language-component__name">Japanese</p>
+                    <p class="language-component__desc">私は日本語の学習プロセスをまだ始めていませんが、それはリストの次のものの1つです。 （このメッセージは自動翻訳者が生成したものです）</p>
+              </div>
+              <div class="language-component col-sm-3">
+                  <img src="./images/flags/france.png" alt="flag" class="language-component__flag--disable">
+                  <p class="language-component__name">French</p>
+                  <p class="language-component__desc">Je n'ai pas encore commencé à apprendre le français mais un jour j'irai certainement parce que cela me semble une langue amusante et essentielle pour un polyglotte (ce message a été généré par un traducteur automatique)</p>
+              </div>
+              <div class="language-component col-sm-3">
+                  <img src="./images/flags/italy.png" alt="flag" class="language-component__flag--disable">
+                  <p class="language-component__name">Italian</p>
+                  <p class="language-component__desc">Non ho ancora iniziato a imparare l'italiano, ma un giorno mi interesserò alla fonetica della lingua italiana e della cultura italiana in generale (questo messaggio è stato generato da un traduttore automatico)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+          <p class="footer__msg">
             Made by Katho with ♥
           </p>
         </div>
