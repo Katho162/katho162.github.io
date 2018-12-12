@@ -1,0 +1,125 @@
+:root {
+  --main-text-color: rgb(77, 77, 77);
+  --secondary-text-color: rgb(99, 99, 99);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(244, 244, 244);
+}
+
+.container {
+  font-family: "Noto Serif TC", "Open Sans", "Helvetica", sans-serif;
+  padding-top: 3em;
+}
+
+.container__avatar {
+  padding: 2em 0;
+  border-radius: 50%;
+  max-width: 256px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.container__title {
+  color: var(--main-text-color);
+  text-align: center;
+}
+
+.container__subtitle {
+  color: var(--secondary-text-color);
+  text-align: center;
+}
+
+.container__paragraph {
+  color: var(--secondary-text-color);
+  text-align: center;
+}
+
+.container__social {
+  padding: 2em;
+}
+
+.container__social-box {
+}
+
+.container__social-box--icon {
+  color: var(--secondary-text-color);
+  font-size: 3em;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 0.5em 0;
+}
+
+.container__social-box--link {
+  color: var(--secondary-text-color);
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  transition: 100ms linear color;
+}
+
+.container__social-box--link:hover {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+.container__about {
+  padding: 2em 0;
+}
+
+.container__about--title {
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.container__about--paragraph {
+  padding: 1em 0;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+.container__about--tech-holder {
+}
+
+.container__about--tech-holder--technology {
+  margin: 2em 0;
+}
+
+.container__about--tech-holder-technology--icon {
+  max-width: 128px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 0.5em 0;
+  filter: grayscale(100%);
+}
+
+.container__about--tech-holder--technology--name {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.3em;
+  color: var(--secondary-text-color);
+  padding: 0.5em 0;
+}
+
+.container__about--tech-holder--technology--desc {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1em;
+  color: var(--main-text-color);
+}
+
+.container__footer--msg {
+  color: var(--main-text-color);
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 3em 0;
+}
