@@ -54,6 +54,10 @@
     src: local('Circular Std Black Italic'), url('../fonts/CircularStd-BlackItalic.woff') format('woff');
 }
 
+.cyrilic {
+    font-family: Helvetica, sans-serif !important;
+}
+
 :root {
     font-family: 'Circular Std Medium', Arial, Helvetica, sans-serif;
     color: #a4a9a9;
@@ -92,11 +96,11 @@ h1, h2, h3, h4, h5, h6, p {
 .header__location {
     color: #2c3131;
     text-align: center;
-    font-family: 'Circular Std Book';
+    font-family: 'Circular Std Book', 'Sawarabi Gothic';
 }
 
 .header__desc {
-    font-family: 'Circular Std Book';
+    font-family: 'Circular Std Book', 'Sawarabi Gothic';
     color: #a4a9a9;
     text-align: center;
 }
@@ -158,7 +162,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .skills__paragraph>p {
-    font-family: 'Circular Std Book';
+    font-family: 'Circular Std Book', 'Sawarabi Gothic';
     color: #a4a9a9;
     font-weight: 100;
 }
@@ -205,7 +209,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .language__section>p {
-    font-family: 'Circular Std Book';
+    font-family: 'Circular Std Book', 'Sawarabi Gothic';
     text-align: center;
     color: #a4a9a9;
     font-weight: 100;
@@ -244,7 +248,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .projects__element > p {
     color: #a4a9a9;
-    font-family: 'Circular Std Book';
+    font-family: 'Circular Std Book', 'Sawarabi Gothic';
     font-weight: 100;
 }
 
