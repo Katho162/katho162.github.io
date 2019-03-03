@@ -1,0 +1,321 @@
+@font-face {
+    font-family: 'Circular Std Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circular Std Book'), url('../fonts/CircularStd-Book.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Circular Std Book Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circular Std Book Italic'), url('../fonts/CircularStd-BookItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Circular Std Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circular Std Medium'), url('../fonts/CircularStd-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Circular Std Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circular Std Medium Italic'), url('../fonts/CircularStd-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Circular Std Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circular Std Bold'), url('../fonts/CircularStd-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Circular Std Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circular Std Bold Italic'), url('../fonts/CircularStd-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Circular Std Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circular Std Black'), url('../fonts/CircularStd-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Circular Std Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circular Std Black Italic'), url('../fonts/CircularStd-BlackItalic.woff') format('woff');
+}
+
+:root {
+    font-family: 'Circular Std Medium', Arial, Helvetica, sans-serif;
+    color: #a4a9a9;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Circular Std Medium', Arial, Helvetica, sans-serif;
+    color: #a4a9a9;
+}
+
+.header {
+    display: block;
+    margin-top: 5em;
+}
+
+.header__avatar {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    max-width: 200px;
+    width: 100%;
+    box-shadow: 0 1em 3em rgba(164, 169, 169, .3);
+}
+
+.header__title {
+    color: #008083;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.header__subtitle {
+    color: #2c3131;
+    text-align: center;
+}
+
+.header__location {
+    color: #2c3131;
+    text-align: center;
+    font-family: 'Circular Std Book';
+}
+
+.header__desc {
+    font-family: 'Circular Std Book';
+    color: #a4a9a9;
+    text-align: center;
+}
+
+.skills {
+    display: block;
+    margin-top: 5em;
+}
+
+.skills__title {
+    color: #008083;
+    text-align: center;
+}
+
+.skills__list {
+    margin-top: 2em;
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    width: 100%;
+}
+
+.skills__quote {
+    margin-top: 4em;
+}
+
+.skills__paragraph {
+    border-left: solid 1px #008083;
+}
+
+.skills__paragraph>.thumbnail {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+}
+
+.skills__paragraph > .thumbnail > img {
+    display: none;
+}
+
+.skills__paragraph>.thumbnail>h4 {
+    position: absolute;
+    bottom: 0;
+    left: 1.5em;
+    width: 70%;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: white;
+    text-shadow: 0 .1em .1em rgba(0,0,0,.5);
+}
+
+.skills__paragraph>img {
+    max-width: 100%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.skills__paragraph>p {
+    font-family: 'Circular Std Book';
+    color: #a4a9a9;
+    font-weight: 100;
+}
+
+.skills__icon {
+    display: block;
+    margin: 3em auto 0;
+    max-width: 64px;
+    width: 100%;
+}
+
+.languages {
+    display: block;
+    margin-top: 5em;
+}
+
+.languages__title {
+    color: #008083;
+    text-align: center;
+}
+
+.languages__list {
+    margin-top: 3em;
+}
+
+.language__section>img {
+    max-width: 150px;
+    width: 100%;
+    display: block;
+    margin: 2em auto;
+    border-radius: 50%;
+    box-shadow: 0 .5em 1em rgba(164, 169, 169, .3);
+    border: solid 1px rgba(155, 155, 155, .1);
+}
+
+.language__section>.disabled {
+    filter: opacity(10%);
+}
+
+.language__section>h4 {
+    text-align: center;
+    color: #2c3131;
+    font-weight: bold;
+}
+
+.language__section>p {
+    font-family: 'Circular Std Book';
+    text-align: center;
+    color: #a4a9a9;
+    font-weight: 100;
+}
+
+.projects {
+    display: block;
+    margin-top: 4em;
+}
+
+.projects__title {
+    color: #2c3131;
+    text-align: center;
+}
+
+.projects__list {
+    margin-top: 2em;
+}
+
+.projects__element {
+
+}
+
+.projects__element > img {
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 100%;
+}
+
+.projects__element > h4 {
+    margin-top: 1em;
+    color: #2c3131;
+}
+
+.projects__element > p {
+    color: #a4a9a9;
+    font-family: 'Circular Std Book';
+    font-weight: 100;
+}
+
+.bar {
+    margin-top: 1em;
+    border-top: solid 2px #008083;
+    border-bottom: solid 2px #008083;
+    width: 35%;
+}
+
+.social {
+    display: block;
+    margin-top: 4em;
+}
+
+.social__title {
+    color: #2c3131;
+    text-align: center;
+}
+
+.social__list {
+    margin-top: 2em;
+}
+
+.social__element {
+
+}
+
+.social__element > a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.social__element > a > h5 {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+    transition: 200ms linear color;
+}
+
+.social__element > a > i {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+    color: #2c3131;
+    font-size: 3em;
+    display: block;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+.social__element > a:hover {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 100;
+    color: #008083
+}
+
+.social__element > a > h5:hover {
+    color: #008083
+}
+
+.footer {
+    display: block;
+    margin: 5em auto 2em;
+}
+
+.footer > p {
+    text-align: center;
+    font-size: 1em;
+}
