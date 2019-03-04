@@ -59,63 +59,119 @@
 }
 
 :root {
-    font-family: 'Circular Std Medium', Arial, Helvetica, sans-serif;
-    color: #a4a9a9;
+    --main-color: #008083;
+    --main-dark-color: #2c3131;
+    --secondary-dark-color: #a4a9a9;
+    --main-font-family: 'Circular Std Medium', Arial, Helvetica, sans-serif;
 }
+
+body {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center 80%;
+}
+
+/* 
+    Overwrite
+    NOTE: That code exists only to overwrite the Spectre.CSS code.
+*/
 
 h1, h2, h3, h4, h5, h6, p {
-    font-family: 'Circular Std Medium', Arial, Helvetica, sans-serif;
-    color: #a4a9a9;
+    font-family: var(--main-font-family);
+    color: var(--secondary-dark-color);
 }
 
-.header {
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.columns {
+    justify-content: space-around;
+}
+
+/*
+    Generics
+    NOTE: That code was created to prevent code copy & paste.
+*/
+.section {
     display: block;
-    margin-top: 5em;
+    margin: 5em auto 0 auto;
+    max-width: 100%;
+    width: 100%;
 }
 
-.header__avatar {
+.title {
+    color: var(--main-color);
+    text-align: center;
+    margin: 1em 0 0 0;
+}
+
+.subtitle {
+    color: var(--main-dark-color);
+    text-align: center;
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.dark-color {
+    color: var(--main-dark-color);
+}
+
+.grey-color {
+    color: var(--secondary-dark-color);
+}
+
+.white-color {
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.avatar {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
+    height: auto;
     max-width: 200px;
     width: 100%;
     box-shadow: 0 1em 3em rgba(164, 169, 169, .3);
 }
 
-.header__title {
-    color: #008083;
-    text-align: center;
-    margin-top: 2em;
+.extra-margin {
+    margin-bottom: 2em;
 }
 
-.header__subtitle {
-    color: #2c3131;
-    text-align: center;
-}
-
-.header__location {
-    color: #2c3131;
-    text-align: center;
-    font-family: 'Circular Std Book', 'Sawarabi Gothic';
-}
-
-.header__desc {
-    font-family: 'Circular Std Book', 'Sawarabi Gothic';
-    color: #a4a9a9;
-    text-align: center;
-}
-
+/*
+    Sections Styles
+    NOTE: Custom Section Styles.
+*/
 .skills {
-    display: block;
-    margin-top: 5em;
-}
-
-.skills__title {
-    color: #008083;
-    text-align: center;
-}
-
-.skills__list {
     margin-top: 2em;
     display: block;
     margin: 0 auto;
@@ -123,48 +179,24 @@ h1, h2, h3, h4, h5, h6, p {
     width: 100%;
 }
 
-.skills__quote {
+@media (max-width: 768px) {
+    .skills {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+.quote {
     margin-top: 4em;
 }
 
-.skills__paragraph {
+.quote__paragraph {
     border-left: solid 1px #008083;
 }
 
-.skills__paragraph>.thumbnail {
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    max-width: 100%;
-    height: 200px;
-}
-
-.skills__paragraph > .thumbnail > img {
-    display: none;
-}
-
-.skills__paragraph>.thumbnail>h4 {
-    position: absolute;
-    bottom: 0;
-    left: 1.5em;
-    width: 70%;
-    max-width: 100%;
-    box-sizing: border-box;
-    font-size: 1em;
-    color: white;
-    text-shadow: 0 .1em .1em rgba(0,0,0,.5);
-}
-
-.skills__paragraph>img {
-    max-width: 100%;
-    box-sizing: border-box;
-    width: 100%;
-}
-
-.skills__paragraph>p {
-    font-family: 'Circular Std Book', 'Sawarabi Gothic';
-    color: #a4a9a9;
-    font-weight: 100;
+.quote__paragraph > p {
+    padding-left: 1em;
+    width: 90%
 }
 
 .skills__icon {
@@ -174,18 +206,8 @@ h1, h2, h3, h4, h5, h6, p {
     width: 100%;
 }
 
-.languages {
-    display: block;
-    margin-top: 5em;
-}
-
-.languages__title {
-    color: #008083;
-    text-align: center;
-}
-
-.languages__list {
-    margin-top: 3em;
+.language__section {
+    padding: 0 1em;
 }
 
 .language__section>img {
@@ -209,9 +231,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .language__section>p {
-    font-family: 'Circular Std Book', 'Sawarabi Gothic';
+    color: var(--secondary-dark-color);
     text-align: center;
-    color: #a4a9a9;
     font-weight: 100;
 }
 
@@ -221,7 +242,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .projects__title {
-    color: #2c3131;
+    color: var(--secondary-dark-color);
     text-align: center;
 }
 
@@ -229,11 +250,9 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: 2em;
 }
 
-.projects__element {
+.projects__element {}
 
-}
-
-.projects__element > img {
+.projects__element>img {
     display: block;
     margin: 0 auto;
     box-sizing: border-box;
@@ -241,14 +260,13 @@ h1, h2, h3, h4, h5, h6, p {
     width: 100%;
 }
 
-.projects__element > h4 {
+.projects__element>h4 {
     margin-top: 1em;
     color: #2c3131;
 }
 
-.projects__element > p {
-    color: #a4a9a9;
-    font-family: 'Circular Std Book', 'Sawarabi Gothic';
+.projects__element>p {
+    color: var(--secondary-dark-color);
     font-weight: 100;
 }
 
@@ -257,6 +275,9 @@ h1, h2, h3, h4, h5, h6, p {
     border-top: solid 2px #008083;
     border-bottom: solid 2px #008083;
     width: 35%;
+    padding: 0;
+    height: 0;
+    border-radius: 0;
 }
 
 .social {
@@ -265,7 +286,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .social__title {
-    color: #2c3131;
+    color: var(--main-dark-color);
     text-align: center;
 }
 
@@ -273,17 +294,15 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: 2em;
 }
 
-.social__element {
+.social__element {}
 
-}
-
-.social__element > a {
+.social__element>a {
     text-decoration: none;
     font-style: normal;
     font-weight: 100;
 }
 
-.social__element > a > h5 {
+.social__element>a>h5 {
     text-decoration: none;
     font-style: normal;
     font-weight: 100;
@@ -291,7 +310,7 @@ h1, h2, h3, h4, h5, h6, p {
     transition: 200ms linear color;
 }
 
-.social__element > a > i {
+.social__element>a>i {
     text-decoration: none;
     font-style: normal;
     font-weight: 100;
@@ -303,23 +322,81 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 1em 0;
 }
 
-.social__element > a:hover {
+.social__element>a:hover {
     text-decoration: none;
     font-style: normal;
     font-weight: 100;
-    color: #008083
+    color: var(--main-color)
 }
 
-.social__element > a > h5:hover {
-    color: #008083
+.social__element>a>h5:hover {
+    color: var(--main-color)
 }
 
 .footer {
+    max-width: 100%;
+    width: 100%;
+    background: rgb(50, 50, 50);
     display: block;
-    margin: 5em auto 2em;
+    margin: 5em auto 0 0;
+    padding: 2em 0;
 }
 
 .footer > p {
     text-align: center;
     font-size: 1em;
+    margin: 3em 0 1em 0;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.footer__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: var(--main-font-family);
+}
+
+.footer__list-right {
+    display: inline-block;
+}
+
+.footer__list-right > li {
+    display: inline-block;
+}
+
+.footer__list-right > li > a {
+    font-size: 2em;
+    padding: 0 .2em 0 0;
+}
+
+.footer__list > li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__list > li > a {
+    color: inherit;
+    text-decoration: none;
+    font-style: inherit;
+    transition: 200ms linear color;
+}
+
+.footer__list > li > a:hover {
+    color: var(--main-color)
+}
+
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .footer__list {
+        margin: 1em 0;
+    }
+
 }

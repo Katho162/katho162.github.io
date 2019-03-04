@@ -1,249 +1,279 @@
-<html>
+<html lang="en">
 <header>
+    <title>Hello World!</title>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Hello World!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
+    <!-- Fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css"
         integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Spectre.css -->
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="shortcut icon" type="image/png" href="./images/favicon.ico" />
 </header>
 
 <body>
     <div class="container">
-        <div class="header row">
-            <div class="col-sm-12">
-                <img src="./images/avatar.png" alt="katho" class="header__avatar">
-                <h1 class="header__title">Katho</h1>
-                <h2 class="header__subtitle">Software Developer</h2>
-                <p class="header__location"><i class="fas fa-map-marker-alt"></i> São Paulo, Brazil</p>
-                <p class="header__desc">
-                    An 18y old guy who does computer stuff.
-                </p>
-            </div>
+        <!-- Header -->
+        <div class="section">
+            <img src="./images/avatar.png" alt="katho" class="avatar">
+            <h1 class="title">Katho</h1>
+            <h2 class="subtitle">Software Developer</h2>
+            <p class="dark-color text-center"><i class="fas fa-map-marker-alt"></i> São Paulo, Brazil</p>
+            <p class="grey-color text-center">
+                An 18y old guy who does computer stuff.
+            </p>
         </div>
-        <div class="skills row">
-            <div class="col-sm-12">
-                <h2 class="skills__title">Skills</h2>
-                <div class="skills__list">
-                    <div class="row justify-content-around">
-                        <div class="col-xs-6 col-md-3">
-                            <img src="./images/icons/clojure.png" alt="icon" class="skills__icon">
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <img src="./images/icons/elixir.png" alt="icon" class="skills__icon">
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <img src="./images/icons/redis.png" alt="icon" class="skills__icon">
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <img src="./images/icons/mysql.png" alt="icon" class="skills__icon">
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <img src="./images/icons/javascript.png" alt="icon" class="skills__icon">
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <img src="./images/icons/java.png" alt="icon" class="skills__icon">
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <img src="./images/icons/react.png" alt="icon" class="skills__icon">
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <img src="./images/icons/mongodb.png" alt="icon" class="skills__icon">
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <img src="./images/icons/python.png" alt="icon" class="skills__icon">
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <img src="./images/icons/php.jpg" alt="icon" class="skills__icon">
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <img src="./images/icons/photoshop.png" alt="icon" class="skills__icon">
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <img src="./images/icons/illustrator.png" alt="icon" class="skills__icon">
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <img src="./images/icons/rust.png" alt="icon" class="skills__icon">
-                        </div>
+        <!-- Skills -->
+        <div class="section">
+            <h2 class="title extra-margin">Skills</h2>
+            <div class="skills">
+                <div class="columns">
+                    <div class="col-3 col-sm-4">
+                        <img src="./images/icons/clojure.png" alt="icon" class="skills__icon">
                     </div>
-                </div>
-                <div class="skills__quote">
-                    <div class="row justify-content-around">
-                        <div class="col-xs-12 col-md-4 skills__paragraph">
-                            <p>Actually i'm a University student doing a grade in System Analysis and Development. At
-                                FATEC São Paulo.</p>
-                        </div>
-                        <div class="col-xs-12 col-md-4 skills__paragraph">
-                            <p>I had some experiences working as a Java Software Developer as Freelancer during the
-                                years of 2016 - 2017</p>
-                        </div>
-                        <div class="col-xs-12 col-md-4 skills__paragraph">
-                            <p>In 2017 i made a discord server to Brazilian/Portuguese programmers discuss about
-                                programming.</p>
-                        </div>
+                    <div class="col-3 col-sm-4">
+                        <img src="./images/icons/elixir.png" alt="icon" class="skills__icon">
+                    </div>
+                    <div class="col-3 col-sm-4">
+                        <img src="./images/icons/redis.png" alt="icon" class="skills__icon">
+                    </div>
+                    <div class="col-3 col-sm-4">
+                        <img src="./images/icons/mysql.png" alt="icon" class="skills__icon">
+                    </div>
+                    <div class="col-3 col-sm-4">
+                        <img src="./images/icons/javascript.png" alt="icon" class="skills__icon">
+                    </div>
+                    <div class="col-3 col-sm-4">
+                        <img src="./images/icons/java.png" alt="icon" class="skills__icon">
+                    </div>
+                    <div class="col-3 col-sm-4">
+                        <img src="./images/icons/react.png" alt="icon" class="skills__icon">
+                    </div>
+                    <div class="col-3 col-sm-4">
+                        <img src="./images/icons/mongodb.png" alt="icon" class="skills__icon">
+                    </div>
+                    <div class="col-3 col-sm-4">
+                        <img src="./images/icons/python.png" alt="icon" class="skills__icon">
+                    </div>
+                    <div class="col-3 col-sm-4">
+                        <img src="./images/icons/php.jpg" alt="icon" class="skills__icon">
+                    </div>
+                    <div class="col-3 col-sm-4">
+                        <img src="./images/icons/photoshop.png" alt="icon" class="skills__icon">
+                    </div>
+                    <div class="col-3 col-sm-4">
+                        <img src="./images/icons/illustrator.png" alt="icon" class="skills__icon">
+                    </div>
+                    <div class="col-3 col-sm-4">
+                        <img src="./images/icons/rust.png" alt="icon" class="skills__icon">
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="languages row">
-            <div class="col-sm-12">
-                <h2 class="languages__title">Languages</h2>
-                <div class="languages__list row">
-                    <div class="col-xs-12 col-md-4 language__section">
-                        <img src="./images/flags/france.png" alt="flag">
-                        <h4>Français</h4>
-                        <p>J’ai appris le français car je compte faire ma vie à Paris. De plus, je trouve que c’est une
-                            très belle langue et surtout d’une élégance inégalable ! Après tout, nous ne l’appelons pas
-                            la « langue de l’amour » pour rien.</p>
+            <!-- Quote Sub Section -->
+            <div class="quote">
+                <div class="columns">
+                    <div class="col-4 col-sm-12 quote__paragraph">
+                        <p>Actually i'm a University student doing a grade in System Analysis and Development. At
+                            FATEC São Paulo.</p>
                     </div>
-                    <div class="col-xs-12 col-md-4 language__section">
-                        <img src="./images/flags/brazil.png" alt="flag">
-                        <h4>Português</h4>
-                        <p>Nasci e vivo no Brasil, pois então assim português é meu idioma nativo!</p>
+                    <div class="col-4 col-sm-12 quote__paragraph">
+                        <p>I had some experiences working as a Java Software Developer as Freelancer during the
+                            years of 2016 - 2017</p>
                     </div>
-                    <div class="col-xs-12 col-md-4 language__section">
-                        <img src="./images/flags/germany.png" alt="flag">
-                        <h4>Deutsch</h4>
-                        <p>Ich glaube, das die Deutsche Sprache mein lieblings Sprache ist. und eines Tages, ich im
-                            Deutschland leben möchten</p>
-                    </div>
-                    <div class="col-xs-12 col-md-4 language__section">
-                        <img src="./images/flags/russia.png" alt="flag">
-                        <h4>Русскй</h4>
-                        <p class="cyrilic">Я учу русский язык в настоящее время, потому что Россия кажется самым крутым местом в мире!
-                            (это сообщение было сгенерировано автоматическим переводчиком)</p>
-                    </div>
-                    <div class="col-xs-12 col-md-4 language__section">
-                        <img src="./images/flags/us.png" alt="flag">
-                        <h4>English</h4>
-                        <p>English is the language in which I excel the most, its importance in our current society is
-                            obvious. It is particularly important for communicating with people from all over the world.
-                        </p>
-                    </div>
-                    <div class="col-xs-12 col-md-4 language__section">
-                        <img src="./images/flags/norway.png" alt="flag">
-                        <h4>Norsk Bokmål</h4>
-                        <p>Norsk er så god og jeg trør det Norge er så kult, men min Norsk er ikke god derimot er vil
-                            forbrede det en dag. Og kan være det jeg skal går å Norge en dag.</p>
-                    </div>
-                    <div class="col-xs-12 col-md-4 language__section">
-                        <img src="./images/flags/japan.png" alt="flag" class="disabled">
-                        <h4>日本人</h4>
-                        <p>私は日本語の学習プロセスをまだ始めていませんが、それはリストの次のものの1つです。 （このメッセージは自動翻訳者が生成したものです）</p>
-                    </div>
-                    <div class="col-xs-12 col-md-4 language__section">
-                        <img src="./images/flags/china.png" alt="flag" class="disabled">
-                        <h4>普通话</h4>
-                        <p>我只懂中文的基礎知識，但肯定會是我的下一個語言！ （此消息由自動翻譯生成）</p>
-                    </div>
-                    <div class="col-xs-12 col-md-4 language__section">
-                        <img src="./images/flags/italy.png" alt="flag" class="disabled">
-                        <h4>Italiano</h4>
-                        <p>Non ho ancora iniziato a imparare l'italiano, ma un giorno mi interesserò alla fonetica della
-                            lingua italiana e della cultura italiana in generale (questo messaggio è stato generato da
-                            un traduttore automatico)</p>
-                    </div>
-                    <div class="col-xs-12 col-md-4 language__section">
-                        <img src="./images/flags/finland.png" alt="flag" class="disabled">
-                        <h4>Suomalainen</h4>
-                        <p>Haluan oppia suomea jonain päivänä, koska se voi olla suuri haaste. koska se on todella
-                            mielenkiintoinen ja kova kieli (se on automaattisen kääntäjän luomaa tekstiä)</p>
-                    </div>
-                    <div class="col-xs-12 col-md-4 language__section">
-                        <img src="./images/flags/lithuania.png" alt="flag" class="disabled">
-                        <h4>Lietuviškai</h4>
-                        <p>Lietuviškai skamba tikrai įdomi kalba, nes pradžioje galvojau apie kai kurias Baltijos šalių
-                            kalbas ir dabar nusprendžiau išmokti lietuvių kalbą (šį pranešimą sukūrė automatinis
-                            vertėjas)</p>
-                    </div>
-                    <div class="col-xs-12 col-md-4 language__section">
-                        <img src="./images/flags/israel.png" alt="flag" class="disabled">
-                        <h4>עברית</h4>
-                        <p>עברית היא אחת השפה המעניינת והמסתורית ביותר עבורי ויום אחד אני אלמד אותה בוודאות (הודעה זו
-                            נוצרה על ידי מתרגם אוטומטי)</p>
+                    <div class="col-4 col-sm-12 quote__paragraph">
+                        <p>In 2017 i made a discord server to Brazilian/Portuguese programmers discuss about
+                            programming.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="projects row">
-            <div class="col-sm-12">
-                <h2 class="projects__title">Projects</h2>
-                <div class="projects__list row justify-content-around">
-                    <div class="projects__element col-xs-12 col-md-5">
-                        <img src="./images/blank.png" alt="angélique">
-                        <div class="bar"></div>
-                        <h4>Gattho</h4>
-                        <p>Gattho is one website project, that i did in 2018 to organize information about me and my
-                            friend Gabriel Motta. And try to start a little portfolio</p>
-                    </div>
-                    <div class="projects__element col-xs-12 col-md-5">
-                        <img src="./images/mylab-thumb.png" alt="angélique">
-                        <div class="bar"></div>
-                        <h4>MyTechLab</h4>
-                        <p>MyTechLab was a project about a WebSite for an IT Solution company.</p>
-                    </div>
-                    <div class="projects__element col-xs-12 col-md-5">
-                        <img src="./images/liga-thumb.png" alt="angélique">
-                        <div class="bar"></div>
-                        <h4>A Liga dos Programadores</h4>
-                        <p>"A Liga dos Programadores" was a Discord server for brazilians/portuguese programmers.</p>
-                    </div>
-                    <div class="projects__element col-xs-12 col-md-5">
-                        <img src="./images/blank.png" alt="angélique">
-                        <div class="bar"></div>
-                        <h4>...</h4>
-                        <p></p>
-                    </div>
+        <!-- Languages -->
+        <div class="section">
+            <h2 class="title extra-margin">Languages</h2>
+            <div class="columns">
+                <div class="col-4 col-sm-6 language__section">
+                    <img src="./images/flags/france.png" alt="flag">
+                    <h4>Français</h4>
+                    <p>J’ai appris le français car je compte faire ma vie à Paris. De plus, je trouve que c’est une
+                        très belle langue et surtout d’une élégance inégalable ! Après tout, nous ne l’appelons pas
+                        la « langue de l’amour » pour rien.</p>
+                </div>
+                <div class="col-4 col-sm-6 language__section">
+                    <img src="./images/flags/brazil.png" alt="flag">
+                    <h4>Português</h4>
+                    <p>Nasci e vivo no Brasil, pois então assim português é meu idioma nativo!</p>
+                </div>
+                <div class="col-4 col-sm-6 language__section">
+                    <img src="./images/flags/germany.png" alt="flag">
+                    <h4>Deutsch</h4>
+                    <p>Ich glaube, das die Deutsche Sprache mein lieblings Sprache ist. und eines Tages, ich im
+                        Deutschland leben möchten</p>
+                </div>
+                <div class="col-4 col-sm-6 language__section">
+                    <img src="./images/flags/russia.png" alt="flag">
+                    <h4>Русскй</h4>
+                    <p class="cyrilic">Я учу русский язык в настоящее время, потому что Россия кажется самым крутым
+                        местом в мире!
+                        (это сообщение было сгенерировано автоматическим переводчиком)</p>
+                </div>
+                <div class="col-4 col-sm-6 language__section">
+                    <img src="./images/flags/us.png" alt="flag">
+                    <h4>English</h4>
+                    <p>English is the language in which I excel the most, its importance in our current society is
+                        obvious. It is particularly important for communicating with people from all over the world.
+                    </p>
+                </div>
+                <div class="col-4 col-sm-6 language__section">
+                    <img src="./images/flags/norway.png" alt="flag">
+                    <h4>Norsk Bokmål</h4>
+                    <p>Norsk er så god og jeg trør det Norge er så kult, men min Norsk er ikke god derimot er vil
+                        forbrede det en dag. Og kan være det jeg skal går å Norge en dag.</p>
+                </div>
+                <div class="col-4 col-sm-6 language__section">
+                    <img src="./images/flags/japan.png" alt="flag" class="disabled">
+                    <h4>日本人</h4>
+                    <p>私は日本語の学習プロセスをまだ始めていませんが、それはリストの次のものの1つです。 （このメッセージは自動翻訳者が生成したものです）</p>
+                </div>
+                <div class="col-4 col-sm-6 language__section">
+                    <img src="./images/flags/china.png" alt="flag" class="disabled">
+                    <h4>普通话</h4>
+                    <p>我只懂中文的基礎知識，但肯定會是我的下一個語言！ （此消息由自動翻譯生成）</p>
+                </div>
+                <div class="col-4 col-sm-6 language__section">
+                    <img src="./images/flags/italy.png" alt="flag" class="disabled">
+                    <h4>Italiano</h4>
+                    <p>Non ho ancora iniziato a imparare l'italiano, ma un giorno mi interesserò alla fonetica della
+                        lingua italiana e della cultura italiana in generale (questo messaggio è stato generato da
+                        un traduttore automatico)</p>
+                </div>
+                <div class="col-4 col-sm-6 language__section">
+                    <img src="./images/flags/finland.png" alt="flag" class="disabled">
+                    <h4>Suomalainen</h4>
+                    <p>Haluan oppia suomea jonain päivänä, koska se voi olla suuri haaste. koska se on todella
+                        mielenkiintoinen ja kova kieli (se on automaattisen kääntäjän luomaa tekstiä)</p>
+                </div>
+                <div class="col-4 col-sm-6 language__section">
+                    <img src="./images/flags/lithuania.png" alt="flag" class="disabled">
+                    <h4>Lietuviškai</h4>
+                    <p>Lietuviškai skamba tikrai įdomi kalba, nes pradžioje galvojau apie kai kurias Baltijos šalių
+                        kalbas ir dabar nusprendžiau išmokti lietuvių kalbą (šį pranešimą sukūrė automatinis
+                        vertėjas)</p>
+                </div>
+                <div class="col-4 col-sm-6 language__section">
+                    <img src="./images/flags/israel.png" alt="flag" class="disabled">
+                    <h4>עברית</h4>
+                    <p>עברית היא אחת השפה המעניינת והמסתורית ביותר עבורי ויום אחד אני אלמד אותה בוודאות (הודעה זו
+                        נוצרה על ידי מתרגם אוטומטי)</p>
                 </div>
             </div>
         </div>
-        <div class="social row">
-            <div class="col-sm-12">
-                <h2 class="social__title">Social Medias & Contact</h2>
-                <div class="social__list row justify-content-around">
-                    <div class="social__element col-xs-12 col-md-3">
-                        <a href="https://github.com/Katho162" target="_blank">
-                            <i class="fab fa-github"></i>
-                            <h5>Katho162</h5>
-                        </a>
-                    </div>
-                    <div class="social__element col-xs-12 col-md-3">
-                        <a href="https://twitter.com/katho162" target="_blank">
-                            <i class="fab fa-twitter"></i>
-                            <h5>@Katho162</h5>
-                        </a>
-                    </div>
-                    <div class="social__element col-xs-12 col-md-3">
-                        <a href="https://linkedin.com/in/katho162/" target="_blank">
-                            <i class="fab fa-linkedin-in"></i>
-                            <h5>Katho162</h5>
-                        </a>
-                    </div>
-                    <div class="social__element col-xs-12 col-md-3">
-                        <a href="#" target="_blank">
-                            <i class="fab fa-discord"></i>
-                            <h5>Katho#0523</h5>
-                        </a>
-                    </div>
-                    <div class="social__element col-xs-12 col-md-3">
-                        <a href="#" target="_blank">
-                            <i class="fas fa-envelope"></i>
-                            <h5>katho162@protonmail.com</h5>
-                        </a>
-                    </div>
+        <!-- Projects -->
+        <div class="section">
+            <h2 class="title extra-margin">Projects</h2>
+            <div class="columns">
+                <div class="projects__element col-5 col-sm-12">
+                    <img src="./images/gattho+thumb.png" alt="project">
+                    <div class="bar"></div>
+                    <h4>Gattho</h4>
+                    <p>Gattho is one website project, that i did in 2018 to organize information about me and my
+                        friend Gabriel Motta. And try to start a little portfolio</p>
+                </div>
+                <div class="projects__element col-5 col-sm-12">
+                    <img src="./images/mylab-thumb.png" alt="project">
+                    <div class="bar"></div>
+                    <h4>MyTechLab</h4>
+                    <p>MyTechLab was a project about a WebSite for an IT Solution company.</p>
+                </div>
+                <div class="projects__element col-5 col-sm-12">
+                    <img src="./images/liga-thumb.png" alt="project">
+                    <div class="bar"></div>
+                    <h4>A Liga dos Programadores</h4>
+                    <p>"A Liga dos Programadores" was a Discord server for brazilians/portuguese programmers.</p>
+                </div>
+                <div class="projects__element col-5 col-sm-12">
+                    <img src="./images/blank.png" alt="project">
+                    <div class="bar"></div>
+                    <h4>...</h4>
+                    <p></p>
                 </div>
             </div>
         </div>
-        <div class="footer">
-            <p>Made by Katho & Angélique with ♥</p>
+        <!-- Social Medias -->
+        <div class="section">
+            <h2 class="title">Social Medias & Contact</h2>
+            <div class="columns">
+                <div class="social__element col-3 col-sm-6">
+                    <a href="https://github.com/Katho162" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <h5>Katho162</h5>
+                    </a>
+                </div>
+                <div class="social__element col-3 col-sm-6">
+                    <a href="https://twitter.com/katho162" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                        <h5>@Katho162</h5>
+                    </a>
+                </div>
+                <div class="social__element col-3 col-sm-6">
+                    <a href="https://linkedin.com/in/katho162/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                        <h5>Katho162</h5>
+                    </a>
+                </div>
+                <div class="social__element col-3 col-sm-6">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-discord"></i>
+                        <h5>Katho#0523</h5>
+                    </a>
+                </div>
+                <div class="social__element col-3 col-sm-6">
+                    <a href="#" target="_blank">
+                        <i class="fas fa-envelope"></i>
+                        <h5>katho162@protonmail.com</h5>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="columns justify-start">
+                <div class="col-3 col-sm-12">
+                    <h3 class="white-color">Contact</h3>
+                    <ul class="white-color footer__list">
+                        <li><i class="fab fa-discord"></i> Katho#0523</li>
+                        <li><a href="#" target="_blank"><i class="fab fa-twitter"></i> @Katho162</a></li>
+                        <li><i class="fas fa-envelope"></i> katho162@protonmail.com</li>
+                        <li><i class="fas fa-envelope"></i> katho162@yandex.ru</li>
+                    </ul>
+                </div>
+                <div class="col-3 col-sm-12">
+                    <h3 class="white-color">Thanks</h3>
+                    <ul class="white-color footer__list">
+                        <li><a href="https://picturepan2.github.io/spectre/index.html" target="_blank">Spectrum.css</a></li>
+                        <li><a href="https://fontawesome.com" targer="_blank">Font Awesome</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-sm-12">
+                    <h3 class="white-color">Misc</h3>
+                    <ul class="white-color footer__list footer__list-right">
+                        <li><a href="https://github.com/Katho162/katho162.github.io" target="_blank"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://github.com/Katho162/katho162.github.io" target="_blank"><i class="fab fa-discord"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCeVbDPBgbzLARXQ6ZluZW8g" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://vk.com/katho162" target="_blank"><i class="fab fa-vk"></i></a></li>
+                        <li><a href="https://steamcommunity.com/id/katho162/" target="_blank"><i class="fab fa-steam"></i></a></li>
+                        <li><a href="https://www.reddit.com/user/Katho162" target="_blank"><i class="fab fa-reddit"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="white-color">Made by Katho & Angélique with ♥</p>
+    </div>
 
-    <script src="./js/app.js"></script>
 </body>
 
 </html>
