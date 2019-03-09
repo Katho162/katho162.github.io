@@ -4,7 +4,8 @@
   "description": "Static personal website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --config webpack.config.js && sass src/sass/base.scss src/css/base.css",
+    "prod": "webpack -p --config webpack.config.js && sass src/sass/base.scss src/css/base.css --style compressed"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/Katho162/katho162.github.io#readme",
   "devDependencies": {
     "sass": "^1.17.2",
-    "webpack": "^4.29.6"
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
   }
 }
