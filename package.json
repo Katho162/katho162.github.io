@@ -1,0 +1,23 @@
+{
+  "name": "katho162.github.io",
+  "version": "1.0.0",
+  "description": "Static personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katho162/katho162.github.io.git"
+  },
+  "author": "Katho",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Katho162/katho162.github.io/issues"
+  },
+  "homepage": "https://github.com/Katho162/katho162.github.io#readme",
+  "devDependencies": {
+    "sass": "^1.17.2",
+    "webpack": "^4.29.6"
+  }
+}
