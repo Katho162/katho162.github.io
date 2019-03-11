@@ -1,0 +1,56 @@
+.skills__section {
+    margin: 50px auto;
+    max-width: 384px;
+    width: 100%;
+    display: block;
+}
+@media (min-width: 900px) {
+    .skills__section {
+        max-width: 500px;
+    }
+}
+
+.skills__section h2 {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.skills__section ul {
+    margin: 50px 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    align-content: center;
+    justify-content: space-around;
+    grid-template-areas: 
+        ". ."
+        ". ."
+        ". ."
+        ". ."
+        ". ."
+        ". ."
+        "last last"
+}
+
+.skills__section ul li:last-child {
+    grid-area: last; 
+}
+
+@media (min-width: 900px) {
+    .skills__section ul {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            ". . . ."
+            ". . . ."
+            ". . . ."
+            "last last last last" 
+    }
+}
+
+.skills__section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 64px;
+    width: 100%;
+}

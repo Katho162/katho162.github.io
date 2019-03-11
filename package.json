@@ -1,25 +1,25 @@
 {
-  "name": "katho162.github.io",
-  "version": "1.0.0",
-  "description": "Static personal website",
-  "main": "index.js",
+  "name": "katho-site",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-scripts": "2.1.8"
+  },
   "scripts": {
-    "dev": "webpack --config webpack.config.js && sass src/sass/base.scss src/css/base.css",
-    "prod": "webpack -p --config webpack.config.js && sass src/sass/base.scss src/css/base.css --style compressed"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Katho162/katho162.github.io.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "author": "Katho",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/Katho162/katho162.github.io/issues"
-  },
-  "homepage": "https://github.com/Katho162/katho162.github.io#readme",
-  "devDependencies": {
-    "sass": "^1.17.2",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3"
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

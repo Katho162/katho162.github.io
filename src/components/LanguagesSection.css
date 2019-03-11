@@ -1,0 +1,41 @@
+.languages__section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px 5px;
+    margin: 50px 0 0;
+    grid-template-areas: 
+        "title title"
+        ". ."
+        ". ."
+        ". ."
+        ". ."
+        ". ."
+        ". ."
+        "last last"
+}
+
+.languages__section div:last-child {
+    grid-area: last;
+}
+
+@media (min-width: 900px) {
+    .languages__section {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        grid-template-areas: 
+            "title title title"
+            ". . ."
+            ". . ."
+            ". . ."
+            ". . ."
+            ". last ."
+    }
+    
+}
+
+.languages__section h2 {
+    grid-area: title;
+    text-align: center;
+    color: var(--primary-color);
+    margin: 0 0 30px;
+}

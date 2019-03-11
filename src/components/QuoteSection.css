@@ -1,0 +1,24 @@
+.quote__section {
+}
+
+.quote__section ul {
+    display: grid;
+    grid-template-columns: 1 1fr;
+    grid-gap: 20px;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+@media (min-width: 900px) {
+    .quote__section ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.quote__section li {
+    border-left: 1px solid var(--primary-color);
+    width: 100%;
+    max-width: 100%;
+    padding-left: 10px;
+    color: var(--grey-color);
+}

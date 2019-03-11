@@ -1,0 +1,28 @@
+.language img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+@media (min-width: 900px) {
+    .language img {
+        max-width: 140px;
+    }
+}
+
+.disabled {
+    filter: opacity(50%);
+}
+
+.language h3 {
+    margin: 40px 0 10px;
+    text-align: center;
+    color: var(--dark-color);
+}
+
+.language p {
+    text-align: center;
+    color: var(--grey-color);
+}
