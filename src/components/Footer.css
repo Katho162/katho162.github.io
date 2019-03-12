@@ -5,3 +5,52 @@
     margin-top: 50px;
 }
 
+.footer ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+@media (min-width: 900px) {
+    .footer ul {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.footer li {
+    margin: 40px 0 0px;
+    text-align: center;
+}
+
+@media (min-width: 900px) {
+    .footer li {
+        text-align: left;
+        margin: 50px 0;
+    }
+}
+
+.footer h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    transition: 200s linear color;
+}
+
+.footer a:hover {
+    color: var(--primary-color);
+}
+
+.footer .misc {
+    display: inline-block;
+}
+
+.footer .misc a {
+    margin-right: 10px;
+    font-size: 2em;
+}

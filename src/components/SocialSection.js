@@ -10,7 +10,7 @@ class SocialSection extends Component {
                 <ul>
                     <SocialMedia socialIcon="fab fa-github" socialLink="https://github.com/Katho162" socialName="Katho162"/>
                     <SocialMedia socialIcon="fab fa-twitter" socialLink="https://twitter.com/Katho162" socialName="@Katho162"/>
-                    <SocialMedia socialIcon="fab fa-linkedin-in" socialLink="#" socialName="Katho162"/>
+                    <SocialMedia socialIcon="fab fa-linkedin-in" socialLink="https://linkedin.com/in/katho162/" socialName="Katho162"/>
                     <SocialMedia socialIcon="fab fa-discord" socialLink="#" socialName="Katho#0523"/>
                 </ul>
             </section>

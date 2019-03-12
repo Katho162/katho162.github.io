@@ -6,9 +6,9 @@ class QuoteSection extends Component {
         return(
             <section className="quote__section">
                 <ul>
-                    <li>Lorem ullamco laborum ea nostrud. Deserunt et in irure duis eu do enim officia do enim id mollit. Occaecat aliqua dolor aute sint excepteur anim elit ut do cillum magna tempor commodo non. Lorem est eiusmod ipsum aute officia.</li>
-                    <li>Lorem ullamco laborum ea nostrud. Deserunt et in irure duis eu do enim officia do enim id mollit. Occaecat aliqua dolor aute sint excepteur anim elit ut do cillum magna tempor commodo non. Lorem est eiusmod ipsum aute officia.</li>
-                    <li>Lorem ullamco laborum ea nostrud. Deserunt et in irure duis eu do enim officia do enim id mollit. Occaecat aliqua dolor aute sint excepteur anim elit ut do cillum magna tempor commodo non. Lorem est eiusmod ipsum aute officia.</li>
+                    <li>I'm currently a university student doing System Analysis and Development at FATEC São Paulo.</li>
+                    <li>I had some experiences working as a Java Software Developer as Freelancer during the years of 2016 - 2017</li>
+                    <li>In 2017, I made a discord server for Brazilian/Portuguese programmers called "A Liga dos Programadores" to discuss programming.</li>
                 </ul>
             </section>
         );
