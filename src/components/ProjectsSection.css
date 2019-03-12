@@ -1,0 +1,15 @@
+.projects__section {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+        "title title";
+    grid-gap: 20px;
+}
+
+.projects__section h2 {
+    grid-area: title;
+    text-align: center;
+    color: var(--primary-color);
+    margin: 0 0 30px;
+}

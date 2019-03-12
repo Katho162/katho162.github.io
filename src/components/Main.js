@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import SkillsSection from './SkillsSection';
 import QuoteSection from './QuoteSection';
 import LanguagesSection from './LanguagesSection';
+import ProjectsSection from './ProjectsSection';
+import SocialSection from './SocialSection';
 
 class Main extends Component {
     render() {
@@ -10,6 +12,8 @@ class Main extends Component {
                 <SkillsSection />
                 <QuoteSection />
                 <LanguagesSection />
+                <ProjectsSection />
+                <SocialSection />
             </main>
         );
     }

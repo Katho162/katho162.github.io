@@ -1,0 +1,36 @@
+.social {
+}
+
+.social a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+.social a:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.social i {
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    display: block;
+    margin: 0 auto;
+    color: var(--dark-color);
+    font-size: 3em;
+    margin: 50px 0;
+}
+
+.social h3 {
+    margin: 10px 0;
+    color: var(--grey-color);
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    transition: 200ms linear color;
+}
+
+.social h3:hover {
+    color: var(--primary-color);
+}

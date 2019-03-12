@@ -1,0 +1,24 @@
+.project img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.project .line {
+    width: 30%;
+    height: 0;
+    max-width: 100%;
+    margin: 20px 0;
+    border: 2px solid var(--primary-color);
+}
+
+.project h3 {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.project p {
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--grey-color);
+}

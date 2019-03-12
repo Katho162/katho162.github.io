@@ -1,0 +1,22 @@
+.social__section {
+    margin: 50px 0;
+}
+
+.social__section h2 {
+    text-align: center;
+    margin: 50px 0;
+    color: var(--primary-color);
+}
+
+.social__section ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+@media (min-width: 900px) {
+    .social__section ul {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
