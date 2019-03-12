@@ -1,7 +1,7 @@
 {
   "name": "katho-site",
-  "version": "0.1.0",
-  "private": true,
+  "version": "3.1.0",
+  "private": false,
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
