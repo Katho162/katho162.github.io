@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './SocialSection.css';
+import './SocialMedias.css';
 import SocialMedia from './SocialMedia';
 
 class SocialSection extends Component {

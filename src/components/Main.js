@@ -1,19 +1,19 @@
 import React, {Component} from 'react';
-import SkillsSection from './SkillsSection';
-import QuoteSection from './QuoteSection';
-import LanguagesSection from './LanguagesSection';
-import ProjectsSection from './ProjectsSection';
-import SocialSection from './SocialSection';
+import Skills from './Sections/Skills/Skills';
+import Quotes from './Sections/Quotes/Quotes';
+import Languages from './Sections/Languages/Languages';
+import Projects from './Sections/Projects/Projects';
+import SocialMedias from './Sections/SocialMedias/SocialMedias';
 
 class Main extends Component {
     render() {
         return(
             <main className="main container">
-                <SkillsSection />
-                <QuoteSection />
-                <LanguagesSection />
-                <ProjectsSection />
-                <SocialSection />
+                <Skills />
+                <Quotes />
+                <Languages />
+                <Projects />
+                <SocialMedias />
             </main>
         );
     }

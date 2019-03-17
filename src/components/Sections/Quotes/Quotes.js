@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './QuoteSection.css';
+import './Quotes.css';
 
 class QuoteSection extends Component {
     render() {
