@@ -1,15 +1,12 @@
 {
   "name": "katho-site",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "private": false,
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-redux": "^6.0.1",
-    "react-scripts": "2.1.8",
-    "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0"
+    "react-scripts": "2.1.8"
   },
   "homepage": "http://katho162.github.io/",
   "scripts": {
