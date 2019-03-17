@@ -21,6 +21,7 @@
 .footer li {
     margin: 40px 0 0px;
     text-align: center;
+    color: white;
 }
 
 @media (min-width: 900px) {
@@ -42,10 +43,17 @@
     transition: 200s linear color;
 }
 
-.footer a:hover {
-    color: var(--primary-color);
+
+.footer li a {
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    transition: 200ms linear color;
 }
 
+.footer li a:hover {
+    color: var(--primary-color);
+}
 .footer .misc {
     display: inline-block;
 }

@@ -20,7 +20,7 @@ class Header extends Component {
                 <h1>Katho</h1>
                 <h2>Software Developer</h2>
                 <div className="location"><i className="fas fa-map-marker-alt"></i> São Paulo, Brazil</div>
-                <p>{this.props.translation.desc}</p>
+                <p>Just an 18 years old guy who does computer stuff.</p>
             </header>
         );
     }    

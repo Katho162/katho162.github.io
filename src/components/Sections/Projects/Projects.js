@@ -4,7 +4,6 @@ import Project from './Project';
 import gattho from '../../../assets/gattho-thumb.png';
 import mytechlab from '../../../assets/mylab-thumb.png';
 import liga from '../../../assets/liga-thumb.png';
-import blank from '../../../assets/blank.png'
 
 class ProjectsSection extends Component {
     render() {
