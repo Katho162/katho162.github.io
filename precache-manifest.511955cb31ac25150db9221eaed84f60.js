@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "3eca9f10cf6b3d091e7a",
-    "url": "/static/css/main.7250acba.chunk.css"
+    "revision": "ea942e9fc868f0d74cd8",
+    "url": "/static/css/main.5faeb934.chunk.css"
   },
   {
-    "revision": "3eca9f10cf6b3d091e7a",
-    "url": "/static/js/main.e3b2f179.chunk.js"
+    "revision": "ea942e9fc868f0d74cd8",
+    "url": "/static/js/main.4606c3eb.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.c5541365.js"
   },
   {
-    "revision": "34738e7c044fe31bf2db",
-    "url": "/static/js/2.eb9544db.chunk.js"
+    "revision": "a8775998ee9ecd9fdf5e",
+    "url": "/static/js/2.49c656df.chunk.js"
   },
   {
     "revision": "6a18ed7afb6c28c2eccacfaaa3fb271c",
@@ -116,11 +116,7 @@ self.__precacheManifest = [
     "url": "/static/media/liga-thumb.733efcc7.png"
   },
   {
-    "revision": "e499f1fbaeb06cf2b9f6ddfd4de672b5",
-    "url": "/static/media/united-states.e499f1fb.png"
-  },
-  {
-    "revision": "005cc135aa5bc0908c3d714e9772aede",
+    "revision": "bab3989e2f1b347602d8e6e0e49e8c5c",
     "url": "/index.html"
   }
 ];
