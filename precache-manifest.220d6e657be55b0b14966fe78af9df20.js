@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ea942e9fc868f0d74cd8",
-    "url": "/static/css/main.5faeb934.chunk.css"
+    "revision": "9825d05d3ca70b5c1def",
+    "url": "/static/css/main.83b7acb3.chunk.css"
   },
   {
-    "revision": "ea942e9fc868f0d74cd8",
-    "url": "/static/js/main.4606c3eb.chunk.js"
+    "revision": "9825d05d3ca70b5c1def",
+    "url": "/static/js/main.38a1804b.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/static/media/liga-thumb.733efcc7.png"
   },
   {
-    "revision": "bab3989e2f1b347602d8e6e0e49e8c5c",
+    "revision": "a364784a993b0d64ab5fde2d1dbaa39a",
     "url": "/index.html"
   }
 ];
