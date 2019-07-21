@@ -14,7 +14,8 @@ class Footer extends Component {
                     <li>
                         <h2>Thanks</h2>
                         <a href="https://fontawesome.com" target="_blank" rel="noopener noreferrer">Font Awesome</a><br/>
-                        Stetch<br/>
+                        Stetch (Text corrections)<br/>
+                        Angélique (Text corrections)<br/>
                     </li>
                     <li className="misc">
                         <h2>Misc</h2>

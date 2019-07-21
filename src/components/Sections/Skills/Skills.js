@@ -13,6 +13,10 @@ import mongoIcon from '../../../assets/icons/mongodb.png';
 import illustratorIcon from '../../../assets/icons/illustrator.png';
 import photoshopIcon from '../../../assets/icons/photoshop.png';
 import mysqlIcon from '../../../assets/icons/mysql.png';
+import angularIcon from '../../../assets/icons/angular.png';
+import vueIcon from '../../../assets/icons/vue.png';
+import typescriptIcon from '../../../assets/icons/typescript.png';
+import nestIcon from '../../../assets/icons/nestjs.png';
 
 class SkillsSection extends Component {
     render() {
@@ -25,6 +29,7 @@ class SkillsSection extends Component {
                     <li><img src={redisIcon} alt="icon"/></li>
                     <li><img src={mysqlIcon} alt="icon"/></li>
                     <li><img src={javascriptIcon} alt="icon"/></li>
+                    <li><img src={typescriptIcon} alt="icon"/></li>
                     <li><img src={javaIcon} alt="icon"/></li>
                     <li><img src={reactIcon} alt="icon"/></li>
                     <li><img src={mongoIcon} alt="icon"/></li>
@@ -32,6 +37,9 @@ class SkillsSection extends Component {
                     <li><img src={phpIcon} alt="icon"/></li>
                     <li><img src={photoshopIcon} alt="icon"/></li>
                     <li><img src={illustratorIcon} alt="icon"/></li>
+                    <li><img src={angularIcon} alt="icon"/></li>
+                    <li><img src={vueIcon} alt="icon"/></li>
+                    <li><img src={nestIcon} alt="icon"/></li>
                     <li><img src={rustIcon} alt="icon"/></li>
                 </ul>
             </section>

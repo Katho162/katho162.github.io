@@ -15,6 +15,10 @@
     text-align: center;
 }
 
+.skills__section ul li:last-child {
+    grid-area: last
+}
+
 .skills__section ul {
     margin: 50px 0;
     list-style-type: none;
@@ -30,17 +34,16 @@
         ". ."
         ". ."
         ". ."
+        ". ."
+        ". ."
         "last last"
-}
-
-.skills__section ul li:last-child {
-    grid-area: last; 
 }
 
 @media (min-width: 900px) {
     .skills__section ul {
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas:
+            ". . . ."
             ". . . ."
             ". . . ."
             ". . . ."
