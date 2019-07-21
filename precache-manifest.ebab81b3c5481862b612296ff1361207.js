@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "9825d05d3ca70b5c1def",
-    "url": "/static/css/main.83b7acb3.chunk.css"
+    "revision": "41b7f2560bddde4a5eff",
+    "url": "/static/css/main.83799e16.chunk.css"
   },
   {
-    "revision": "9825d05d3ca70b5c1def",
-    "url": "/static/js/main.38a1804b.chunk.js"
+    "revision": "41b7f2560bddde4a5eff",
+    "url": "/static/js/main.2bac537c.chunk.js"
   },
   {
-    "revision": "fdfcfda2d9b1bf31db52",
-    "url": "/static/js/runtime~main.c5541365.js"
+    "revision": "42ac5946195a7306e2a5",
+    "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "a8775998ee9ecd9fdf5e",
-    "url": "/static/js/2.49c656df.chunk.js"
+    "revision": "e46f63530a6cf54bc1b9",
+    "url": "/static/js/2.70afb614.chunk.js"
   },
   {
     "revision": "6a18ed7afb6c28c2eccacfaaa3fb271c",
@@ -68,6 +68,14 @@ self.__precacheManifest = [
     "url": "/static/media/mysql.07c28adf.png"
   },
   {
+    "revision": "09af26effa4f2999663f96e00bb51f0a",
+    "url": "/static/media/angular.09af26ef.png"
+  },
+  {
+    "revision": "429bcad2082bda8936ab191778067390",
+    "url": "/static/media/nestjs.429bcad2.png"
+  },
+  {
     "revision": "3fc8860c56a93364c00c45ea5c18aa73",
     "url": "/static/media/brazil.3fc8860c.png"
   },
@@ -84,24 +92,8 @@ self.__precacheManifest = [
     "url": "/static/media/france.78e9f99b.png"
   },
   {
-    "revision": "f85b297f077b27756d5fefdf35da1e52",
-    "url": "/static/media/israel.f85b297f.png"
-  },
-  {
-    "revision": "00d7b6d94371a8a31bcfa9f64fd2b8b1",
-    "url": "/static/media/china.00d7b6d9.png"
-  },
-  {
-    "revision": "cc79b1867397b8aec17dccce31e6fbef",
-    "url": "/static/media/italy.cc79b186.png"
-  },
-  {
     "revision": "b36b3e38b06f82612ae94d26c3679795",
     "url": "/static/media/russia.b36b3e38.png"
-  },
-  {
-    "revision": "79984b1b4681dbab2cb6100caac6351a",
-    "url": "/static/media/czech-republic.79984b1b.png"
   },
   {
     "revision": "a8e0bf0008a5317d449fba7d378e2a6c",
@@ -116,7 +108,23 @@ self.__precacheManifest = [
     "url": "/static/media/liga-thumb.733efcc7.png"
   },
   {
-    "revision": "a364784a993b0d64ab5fde2d1dbaa39a",
+    "revision": "f85b297f077b27756d5fefdf35da1e52",
+    "url": "/static/media/israel.f85b297f.png"
+  },
+  {
+    "revision": "00d7b6d94371a8a31bcfa9f64fd2b8b1",
+    "url": "/static/media/china.00d7b6d9.png"
+  },
+  {
+    "revision": "cc79b1867397b8aec17dccce31e6fbef",
+    "url": "/static/media/italy.cc79b186.png"
+  },
+  {
+    "revision": "79984b1b4681dbab2cb6100caac6351a",
+    "url": "/static/media/czech-republic.79984b1b.png"
+  },
+  {
+    "revision": "80513065004d78e69ff1ad58359e1af3",
     "url": "/index.html"
   }
 ];
