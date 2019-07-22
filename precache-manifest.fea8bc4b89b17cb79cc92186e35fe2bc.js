@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "41b7f2560bddde4a5eff",
-    "url": "/static/css/main.83799e16.chunk.css"
+    "revision": "535f827eb29cfd8cc2bd",
+    "url": "/static/css/main.a10a1460.chunk.css"
   },
   {
-    "revision": "41b7f2560bddde4a5eff",
-    "url": "/static/js/main.2bac537c.chunk.js"
+    "revision": "535f827eb29cfd8cc2bd",
+    "url": "/static/js/main.769fa9a6.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/static/media/czech-republic.79984b1b.png"
   },
   {
-    "revision": "80513065004d78e69ff1ad58359e1af3",
+    "revision": "f68bab0f03825a578ad96872160c2ed0",
     "url": "/index.html"
   }
 ];
